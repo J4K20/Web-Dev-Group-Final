@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ext.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class = "top">
+        <img src="img/impact-new-logo-1.png"alt="Impact100 logo" width = 100px height = 100px style="padding: 5px; margin: 0 0 0 25px">         
+            <div class="nav">
+                <button onclick="window.location.href = 'index.html'">Home</button>
+                <button onclick="window.location.href = 'grants.html'">Grants</button>
+                <button onclick="window.location.href = 'join.html'">Get Involved</button>
+                <button onclick="window.location.href = 'news.html'">News & Events</button>
+                <button onclick="window.location.href = 'about.html'">About Us</button>
+            </div>
+        </div>
+
+        <h1>&nbsp;Grant Application Form</h1>
+        <div style="width: 85%; color: black; margin: 20px;" >
+            <form action="thanks.html" name="apply">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label for="name">Full Name: </label>
+                    <input type="text" name="name" id="">
+                    <br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="">
+                    <br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="number" name="phone" id="" minlength="11">
+                    <br><br>
+                    <label for="type">Grant Recipient:</label>
+                    <select name="type" id="">
+                        <option value="1">Organization</option>
+                        <option value="2">Business</option>
+                        <option value="3">Project</option>
+                        <option value="4">Other</option>
+                    </select>
+                    <br><br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Organization Information</legend>
+                    <label for="org">Organization Name:</label>
+                    <input type="text" name="org" id="">
+                    <br><br>
+                    <label for="orgweb">Organization Website:</label>
+                    <input type="text" name="text" id="">
+                    <br><br>
+                    <label for="orgemail">Organization Email:</label>
+                    <input type="email" name="orgemail" id="">
+                    <br><br>
+                    <label for="address">Organization Address:</label><br>
+                    <input type="text" name="address" id="">
+                    <br><br>
+                    <label for="mission">Organization Mission:</label><br>
+                    <textarea name="mission" id="" rows="10" cols="50"></textarea>
+                    <br><br>
+                    <label for="files">Organization file:</label>
+                    <input type="file" name="orgemail" id="">
+                    <br>
+            </fieldset>
+            <fieldset>
+                <legend>Grant Information</legend>
+                <label for="funding">The size of the grant would be $100,000. <br> Please describe how this funding would be used</label><br>
+                <textarea name="funding" id=""  rows="10" cols="50"></textarea>
+                <br>
+                <label for="amount">Time Frame to Use Grant</label><br>
+                    <input type="radio" name="1" id=""> &lt;1 year <br>
+                    <input type="radio" name="1" id=""> 1-2 years <br>
+                    <input type="radio" name="1" id=""> 2-3 years <br>
+                    <input type="radio" name="1" id=""> 3+ years <br>
+                    <br>
+                    <label for="extra">Will funding be needed beyond this grant?</label><br>
+                    <input type="radio" id="1" > Yes
+                    <input type="radio" name="2" id="">No
+                    <br>
+                    <label for="funding">Describe where the remaining funding will come from if applicable</label><br>
+                    <textarea name="funding" id=""  rows="10" cols="50"></textarea>
+                    <br>
+            </fieldset>
+            <fieldset>
+                <input type="checkbox" name="" id="">I agree to the terms & conditions <br><br><br>
+                <span style="padding: 20px 40px; background-color: lightgrey; border-radius: 10px;">
+                <input type="checkbox"> I am not a robot
+                </span><br><br><br>
+                <input type="submit" name="submit" id="submit">
+                <input type="reset" name="reset" id="reset">
+            </fieldset>
+            </form>
+        </div>
+
+        <footer >
+            <center>
+            &copy;Impact 100 <br>
+            <a href="https://facebook.com" target="_blank" class="sociallink"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank" class="sociallink"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank" class="sociallink"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank" class="sociallink"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://youtube.com" target="_blank" class="sociallink"><i class="fab fa-youtube"></i></a>
+        </center>
+    </footer>
+</body>
+</html>
